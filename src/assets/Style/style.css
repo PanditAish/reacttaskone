@@ -8,7 +8,11 @@
 }
 
 .main-div{
-    background: linear-gradient(45deg, #D4EBF8, #0A3981);
+    /* background: linear-gradient(45deg, #D4EBF8, #0A3981); */
+    /* background-image: url("https://img.freepik.com/free-vector/gradient-blue-background_23-2149350177.jpg?t=st=1739429035~exp=1739432635~hmac=b093276bd8e58aeff01e4ab2e484db71b528489e0fb467b0e3da4b7f25fb7cb9&w=740"); */
+    background-image: url("https://img.freepik.com/free-vector/bokeh-background_23-2148486863.jpg?t=st=1739429544~exp=1739433144~hmac=cbeb0147498fa7c9641334caa2b17d80074258c30dbf2b54e1a9b70ace711c9c&w=740");
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -43,7 +47,8 @@ input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff80;
+    backdrop-filter: blur(10px);
     border-radius: 0.8rem;
     transition: 0.5s;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.11);
@@ -92,5 +97,5 @@ input{
 .cardhead{
     font-size: 18px;
     text-align: center;
-    color: rgb(65, 65, 65);
+    color: rgb(49, 49, 49);
 }
