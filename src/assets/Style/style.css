@@ -8,8 +8,6 @@
 }
 
 .main-div{
-    /* background: linear-gradient(45deg, #D4EBF8, #0A3981); */
-    /* background-image: url("https://img.freepik.com/free-vector/gradient-blue-background_23-2149350177.jpg?t=st=1739429035~exp=1739432635~hmac=b093276bd8e58aeff01e4ab2e484db71b528489e0fb467b0e3da4b7f25fb7cb9&w=740"); */
     background-image: url("https://img.freepik.com/free-vector/bokeh-background_23-2148486863.jpg?t=st=1739429544~exp=1739433144~hmac=cbeb0147498fa7c9641334caa2b17d80074258c30dbf2b54e1a9b70ace711c9c&w=740");
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,7 +45,7 @@ input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff80;
+    background-color: #ffffff8c;
     backdrop-filter: blur(10px);
     border-radius: 0.8rem;
     transition: 0.5s;
